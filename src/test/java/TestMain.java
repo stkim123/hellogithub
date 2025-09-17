@@ -24,4 +24,10 @@ public class TestMain {
         Main m = new Main();
         Assert.assertTrue(m.divide(2,1) == 2);
     }
+
+    public void multiply_test()
+    {
+        Main m = new Main();
+        Assert.assertTrue(m.multiply(2,1) == 2);
+    }
 }
