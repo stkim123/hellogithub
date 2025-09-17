@@ -10,4 +10,11 @@ public class TestMain {
         Main m = new Main();
         Assert.assertTrue(m.add(1,2) == 3);
     }
+
+    @Test
+    public void subtract_test()
+    {
+        Main m = new Main();
+        Assert.assertTrue(m.subtract(2,1) == 1);
+    }
 }
