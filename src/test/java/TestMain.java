@@ -17,4 +17,11 @@ public class TestMain {
         Main m = new Main();
         Assert.assertTrue(m.subtract(2,1) == 1);
     }
+
+    @Test
+    public void divide_test()
+    {
+        Main m = new Main();
+        Assert.assertTrue(m.divide(2,1) == 2);
+    }
 }
